@@ -55,7 +55,7 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 |---|--------|------|
 | 01 | Preparação do ambiente | [Ver Conteúdo](https://github.com/JosiTubaroski/Airflow_Preparar_Ambiente/blob/main/README.md) |
 | 02 | Subir Docker e Airflow (caso a máquina tenha desligado) | [Ver Conteúdo](https://github.com/JosiTubaroski/Subir_Docker/blob/main/README.md) |
-| 03 | Conhecendo o Airflow | [Ver anotações](https://github.com/JosiTubaroski/Conhecendo_Airflow) |
+| 03 | Conhecendo o Airflow | [Ver Conteúdo](https://github.com/JosiTubaroski/Conhecendo_Airflow) |
 
 ### 2. Construindo e Estruturando DAGs
 
