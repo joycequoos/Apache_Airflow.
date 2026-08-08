@@ -17,7 +17,7 @@ Conteúdo relacionado: [Como surge a Engenharia de Dados?](https://github.com/jo
 
 ---
 
-## 🟢 Início — O que é o Apache Airflow
+## O que é o Apache Airflow
 
 [![Apache Airflow](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Apache_Airflow.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Apache_Airflow.png)
 
@@ -40,7 +40,7 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 
 ---
 
-## 🟡 Meio — Trilha de Estudos (do básico ao avançado)
+## Trilha de Estudos (do básico ao avançado)
 
 <!--
   Comentário: dividi as 37 anotações originais em 5 blocos temáticos,
@@ -118,7 +118,7 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 
 ---
 
-## 🔴 Fim — Por que isso importa
+## Por que isso importa
 
 O Airflow é hoje uma peça central de qualquer stack moderna de dados: sem orquestração confiável, pipelines de ETL/ELT, modelos de machine learning e relatórios executivos ficam sujeitos a falhas silenciosas e dados desatualizados. Dominar desde os fundamentos (DAGs, Operators, Trigger Rules) até os recursos avançados (Datasets, Sensors, Hooks, Plugins) é o que permite migrar de scripts isolados para pipelines de produção — resilientes, monitoráveis e escaláveis.
 
