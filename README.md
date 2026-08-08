@@ -61,11 +61,11 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 
 | # | Tópico | Link |
 |---|--------|------|
-| 04 | Criar a primeira DAG na prática | [Ver código](https://github.com/JosiTubaroski/Criar_DAG_Airflow) |
-| 05 | Segunda DAG (paralelismo) / Terceira DAG (precedência) | [Ver código](https://github.com/JosiTubaroski/Segunda_Dag_Paralelismo) |
-| 06 | DAG utilizando `with` e `set_upstream` | [Ver código](https://github.com/JosiTubaroski/Quarta_Dag/tree/main) |
-| 10 | Estruturando DAGs um pouco mais complexas | [Ver código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
-| 11 | Agrupamento de tasks (Task Group) | [Ver anotações](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
+| 04 | Criar a primeira DAG na prática | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criar_DAG_Airflow) |
+| 05 | Segunda DAG (paralelismo) / Terceira DAG (precedência) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Segunda_Dag_Paralelismo) |
+| 06 | DAG utilizando `with` e `set_upstream` | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Quarta_Dag/tree/main) |
+| 10 | Estruturando DAGs um pouco mais complexas | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
+| 11 | Agrupamento de tasks (Task Group) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
 | 12 | DAG que executa outra DAG | [Ver código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
 | 13 | Principais parâmetros de uma DAG | [Ver anotações](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
 | 14 | Criando DAG com dicionários | [Ver anotações](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
