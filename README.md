@@ -66,10 +66,10 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 | 06 | DAG utilizando `with` e `set_upstream` | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Quarta_Dag/tree/main) |
 | 10 | Estruturando DAGs um pouco mais complexas | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
 | 11 | Agrupamento de tasks (Task Group) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
-| 12 | DAG que executa outra DAG | [Ver código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
-| 13 | Principais parâmetros de uma DAG | [Ver anotações](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
-| 14 | Criando DAG com dicionários | [Ver anotações](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
-| 16 | Criando DAGs com task Dummy | [Ver código](https://github.com/JosiTubaroski/Dags_Exercicios/blob/main/dummy.py) |
+| 12 | DAG que executa outra DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
+| 13 | Principais parâmetros de uma DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
+| 14 | Criando DAG com dicionários | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
+| 16 | Criando DAGs com task Dummy | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dags_Exercicios/blob/main/dummy.py) |
 
 ### 3. Operadores, Controle de Fluxo e Gatilhos
 
