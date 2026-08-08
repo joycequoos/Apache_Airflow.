@@ -1,192 +1,132 @@
+# Apache Airflow: a mais importante ferramenta de orquestração de dados
 
-### Apache Airflow: A mais importante ferramenta de orquestração de dados
+[← Voltar ao Portfólio de Dados](https://github.com/joycequoos/Principal_Data/blob/main/README.md)
 
-<img src="https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Apache_Airflow.png">
+<!--
+  Comentário: apliquei a mesma lógica estrutural do README "Como surge a
+  Engenharia de Dados" — introdução → desenvolvimento em blocos → fechamento.
+  Como este repositório era uma lista sequencial de 37 anotações soltas,
+  agrupei os itens por tema/nível de dificuldade em vez de manter uma lista
+  única de 01 a 37. Isso deixa mais fácil pular direto para o assunto que
+  a pessoa quer estudar.
+-->
 
-- O Airflow é uma plataforma para gerenciamento, programação e monitoramento de pipelines de dados.
-- Ele permite que você crie, transforme, carregue dados através de processos simples ou mesmo processos complexos, utilizando um conjunto de tarefas independentes que facilita a automação e a escabilidade.
-- O Airflow é, sem dúvida, uma das principais ferramentas de engenharia de dados moderno.
+O Airflow é uma plataforma para gerenciamento, programação e monitoramento de pipelines de dados. Ele permite criar, transformar e carregar dados por meio de processos simples ou complexos, utilizando um conjunto de tarefas independentes que facilita a automação e a escalabilidade — sendo, hoje, uma das principais ferramentas de Engenharia de Dados moderna.
 
-### O que é Apache Airflow
+Conteúdo relacionado: [Como surge a Engenharia de Dados?](https://github.com/joycequoos/Como-surge-engenharia-dados./blob/main/README.md)
 
-O Airflow é um projeto que foi criado pela Bianchi em 2015 e como vários outros projetos opensource, ele acabou sendo mantido.
-Ele acabou sendo passado para a Fundação Apache e hoje é mantido pela Fundação Apache.
-Ele é desenvolvido em Python e uma das caracteristicas é que ele é extensivel
+---
 
-<img src="https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Orquestrador.png">
+## 🟢 Início — O que é o Apache Airflow
 
-O objetivo dele é orquestrar o pipeline de dados.
-É desenvolvida uma dag e dentro das dags as tarefas as tasks
+[![Apache Airflow](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Apache_Airflow.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Apache_Airflow.png)
 
-<img src="https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Dag.png">
+O Airflow é um projeto criado em 2015 e, como diversos outros projetos open source, acabou sendo doado e hoje é mantido pela **Apache Software Foundation**. É desenvolvido em **Python** e uma de suas principais características é a extensibilidade.
 
-Dentro das dags tambem é desenvolvido como será a precedencia das tarefas.
+[![Orquestrador](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Orquestrador.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Orquestrador.png)
 
-### Quais as vantagens de usar uma pipeline de dados com Airflow
+O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolve-se uma **DAG** (Directed Acyclic Graph) e, dentro dela, as tarefas (*tasks*) — incluindo a definição de qual a precedência entre elas.
 
-<img src="https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Vantagens.png">
+[![Dag](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Dag.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Dag.png)
+
+### Vantagens de usar uma pipeline de dados com Airflow
+
+[![Vantagens](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Vantagens.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Vantagens.png)
 
 ### Como o Airflow funciona
 
-- DAG: é um pipeline do Airflow
-   - O que este pipeline vai fazer?
-     
-- Operators/Task
+- **DAG** — é um pipeline do Airflow: define *o que* esse pipeline vai fazer.
+- **Operators / Task** — definem *como* cada etapa do pipeline é executada.
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Airflow_Preparar_Ambiente/blob/main/README.md">01 - Preparação do Ambiente</a></p>
-</div> 
+---
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Subir_Docker/blob/main/README.md">02 - Subir docker e airflow caso a máquina tenha desligado</a></p>
-</div> 
+## 🟡 Meio — Trilha de Estudos (do básico ao avançado)
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Conhecendo_Airflow">03 - Conhecendo o airflow.</a></p>
-</div> 
+<!--
+  Comentário: dividi as 37 anotações originais em 5 blocos temáticos,
+  seguindo a progressão natural de quem está aprendendo Airflow:
+  1) preparar o ambiente, 2) construir DAGs, 3) controlar o fluxo,
+  4) trocar dados entre tasks, 5) configurações e extensibilidade.
+-->
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Criar_DAG_Airflow">04 - Criar primeira Dag na Prática</a></p>
-</div> 
+### 1. Preparação do Ambiente
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Segunda_Dag_Paralelismo">05 - Segunda Dag: Paralelismo / Terceira Dag: Precedencia</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 01 | Preparação do ambiente | [Ver anotações](https://github.com/JosiTubaroski/Airflow_Preparar_Ambiente/blob/main/README.md) |
+| 02 | Subir Docker e Airflow (caso a máquina tenha desligado) | [Ver anotações](https://github.com/JosiTubaroski/Subir_Docker/blob/main/README.md) |
+| 03 | Conhecendo o Airflow | [Ver anotações](https://github.com/JosiTubaroski/Conhecendo_Airflow) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Quarta_Dag/tree/main">06 - Dag: Utilizando with e set_upstream</a></p>
-</div> 
+### 2. Construindo e Estruturando DAGs
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Principais_Operadores/blob/main/README.md">07 - Principais Operadores</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 04 | Criar a primeira DAG na prática | [Ver código](https://github.com/JosiTubaroski/Criar_DAG_Airflow) |
+| 05 | Segunda DAG (paralelismo) / Terceira DAG (precedência) | [Ver código](https://github.com/JosiTubaroski/Segunda_Dag_Paralelismo) |
+| 06 | DAG utilizando `with` e `set_upstream` | [Ver código](https://github.com/JosiTubaroski/Quarta_Dag/tree/main) |
+| 10 | Estruturando DAGs um pouco mais complexas | [Ver código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
+| 11 | Agrupamento de tasks (Task Group) | [Ver anotações](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
+| 12 | DAG que executa outra DAG | [Ver código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
+| 13 | Principais parâmetros de uma DAG | [Ver anotações](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
+| 14 | Criando DAG com dicionários | [Ver anotações](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
+| 16 | Criando DAGs com task Dummy | [Ver código](https://github.com/JosiTubaroski/Dags_Exercicios/blob/main/dummy.py) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Regras_Gatilho/blob/main/README.md">08 - Regras de Gatilho</a></p>
-</div> 
+### 3. Operadores, Controle de Fluxo e Gatilhos
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Exemplo_Trigger/blob/main/README.md">09 - Exemplos Trigger</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 07 | Principais Operadores | [Ver anotações](https://github.com/JosiTubaroski/Principais_Operadores/blob/main/README.md) |
+| 08 | Regras de Gatilho (Trigger Rules) | [Ver anotações](https://github.com/JosiTubaroski/Regras_Gatilho/blob/main/README.md) |
+| 09 | Exemplos de Trigger | [Ver anotações](https://github.com/JosiTubaroski/Exemplo_Trigger/blob/main/README.md) |
+| 21 | Branchs: decisões em DAGs | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/5.1.Branchs.pdf) |
+| 22 | Criando uma DAG com Branch | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/branchs.py) |
+| 23 | Mais sobre o PythonOperator | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/6.1.Mais%20Python%20Operator.pdf) |
+| 24 | Limpeza de dados com PythonOperator | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pythonoperator.py) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main">10 - Estruturando dags um pouco mais complexas</a></p>
-</div> 
+### 4. Comunicação e Dados entre Tasks
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main">10 - Estruturando dags um pouco mais complexas</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 15 | Fundamentos de XCom / utilizando XCom | [Ver anotações](https://github.com/JosiTubaroski/Xcom/blob/main/README.md) |
+| 25 | Conhecendo Datasets | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/7.1.Datasets.pdf) |
+| 26 | DAG consumindo Datasets (Produtor) | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/producer.py) |
+| 27 | DAG consumindo Datasets (Consumidor) | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/consumer.py) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md">11 - Agrupamento de tasks</a></p>
-</div> 
+### 5. Configurações Avançadas, Sensores e Integrações
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Dag_Executa_Dag">12 - Dag executa Dag</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 17 | Entendendo Variáveis | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Variaveis.pdf) |
+| 18 | Utilizando Variáveis em DAGs | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/variaveis.py) |
+| 19 | Fundamentos de Pools | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/3.1.Pools.pdf) |
+| 20 | Testando Pools em DAGs | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pools.py) |
+| 28 | Fundamentos do Sensor | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/8.1.Sensors.pdf) |
+| 29 | Criando um sensor para uma API | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/sensors.py) |
+| 30 | Operando em banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/bancodedados.py) |
+| 31 | Hooks | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Hooks.pdf) |
+| 32 | Hooks com banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/hooks.py) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md">13 - Principais Parametros Dag</a></p>
-</div> 
+### 6. Infraestrutura, Configuração e Extensibilidade
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md">14 - Criando Dag com Dicionários</a></p>
-</div> 
+| # | Tópico | Link |
+|---|--------|------|
+| 33 | Configurações | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Configura%C3%A7%C3%B5es.pdf) |
+| 34 | Executers | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.Executers.pdf) |
+| 35 | Plugins | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Criando%20Plugins.pdf) |
+| 36 | Criando seu próprio Plugin | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/big_data_operator.py) |
+| 37 | Conceitos sobre o ecossistema Docker | [Ver anotações](https://github.com/JosiTubaroski/Docker_Compose/edit/main/README.md) |
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Xcom/blob/main/README.md">15 - Fundamentos de XCom / Utilizando XCom</a></p>
-</div> 
+---
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Dags_Exercicios/blob/main/dummy.py">16 - Criando dags com task Dummy</a></p>
-</div> 
+## 🔴 Fim — Por que isso importa
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Variaveis.pdf">17 - Entendendo Variaveis</a></p>
-</div> 
+O Airflow é hoje uma peça central de qualquer stack moderna de dados: sem orquestração confiável, pipelines de ETL/ELT, modelos de machine learning e relatórios executivos ficam sujeitos a falhas silenciosas e dados desatualizados. Dominar desde os fundamentos (DAGs, Operators, Trigger Rules) até os recursos avançados (Datasets, Sensors, Hooks, Plugins) é o que permite migrar de scripts isolados para pipelines de produção — resilientes, monitoráveis e escaláveis.
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/variaveis.py">18 - Utilizando Variaveis em Dags</a></p>
-</div> 
+### Próximos passos sugeridos
+- Praticar a criação de uma DAG própria conectando a uma fonte de dados real (API, banco de dados ou arquivo).
+- Explorar a integração do Airflow com ferramentas de nuvem (ex: BigQuery, S3, Databricks).
+- Consultar o [Astronomer Registry](https://registry.astronomer.io/) para exemplos de operadores e integrações prontas.
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/3.1.Pools.pdf">19 - Fundamentos de Pools</a></p>
-</div> 
+## Contato
 
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pools.py">20 - Testando Pools em Dags</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/5.1.Branchs.pdf">21 - Branchs: Decisões em Dags</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/branchs.py">22 - Criando uma Dag com Branch</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/6.1.Mais%20Python%20Operator.pdf">23 - Mais sobre PythonOperator</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pythonoperator.py">24 - Limpeza de Dados com Python Operator</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/7.1.Datasets.pdf">25 - Conhecendo DataSets</a></p>
-</div> 
-
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/producer.py">26 - Dag Consumindo DataSets (Produtor) </a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/consumer.py">27 - Dag Consumindo DataSets (Consumidor) </a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/8.1.Sensors.pdf">28 - Fundamentos do Sensor</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/sensors.py">29 - Criando um sensor para uma API</a></p>
-</div> 
-
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/bancodedados.py">30 - Operando em Banco de Dados</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Hooks.pdf">31 - Hooks</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/hooks.py">32 - Hooks com Banco de Dados</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Configura%C3%A7%C3%B5es.pdf">33 - Configurações</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.Executers.pdf">34 - Executers</a></p>
-</div> 
-
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Criando%20Plugins.pdf">35 - Plugins</a></p>
-</div> 
-
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/big_data_operator.py">36 - Criando seu Plugin</a></p>
-</div> 
-
-<div> 
-<p><a href="https://github.com/JosiTubaroski/Docker_Compose/edit/main/README.md">37 - Conceitos sobre o ecossistema Docker</a></p>
-</div> 
-
-
+Sugestões, dúvidas ou colaborações são bem-vindas — abra uma *issue* ou entre em contato pelo perfil do GitHub.
