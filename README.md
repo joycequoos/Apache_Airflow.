@@ -2,14 +2,6 @@
 
 [← Voltar a Engenharia de Dados](https://github.com/joycequoos/Data_Enginer/blob/main/README.md)
 
-<!--
-  Comentário: apliquei a mesma lógica estrutural do README "Como surge a
-  Engenharia de Dados" — introdução → desenvolvimento em blocos → fechamento.
-  Como este repositório era uma lista sequencial de 37 anotações soltas,
-  agrupei os itens por tema/nível de dificuldade em vez de manter uma lista
-  única de 01 a 37. Isso deixa mais fácil pular direto para o assunto que
-  a pessoa quer estudar.
--->
 
 O Airflow é uma plataforma para gerenciamento, programação e monitoramento de pipelines de dados. Ele permite criar, transformar e carregar dados por meio de processos simples ou complexos, utilizando um conjunto de tarefas independentes que facilita a automação e a escalabilidade — sendo, hoje, uma das principais ferramentas de Engenharia de Dados moderna.
 
@@ -69,7 +61,7 @@ O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolv
 | 12 | DAG que executa outra DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
 | 13 | Principais parâmetros de uma DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
 | 14 | Criando DAG com dicionários | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
-| 16 | Criando DAGs com task Dummy | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dags_Exercicios/blob/main/dummy.py) |
+| 16 | Criando DAGs com task Dummy | [Ver Conteúdo/Código](https://github.com/joycequoos/Dags_Exercicios/blob/main/README.md) |
 
 ### 3. Operadores, Controle de Fluxo e Gatilhos
 
