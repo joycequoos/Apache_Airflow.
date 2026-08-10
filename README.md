@@ -11,8 +11,6 @@ Conteúdo relacionado: [Como surge a Engenharia de Dados?](https://github.com/jo
 
 ## O que é o Apache Airflow
 
-[![Apache Airflow](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Apache_Airflow.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Apache_Airflow.png)
-
 O Airflow é um projeto criado em 2015 e, como diversos outros projetos open source, acabou sendo doado e hoje é mantido pela **Apache Software Foundation**. É desenvolvido em **Python** e uma de suas principais características é a extensibilidade.
 
 [![Orquestrador](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Orquestrador.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Orquestrador.png)
