@@ -13,7 +13,17 @@ Conteúdo relacionado: [Como surge a Engenharia de Dados?](https://github.com/jo
 
 O Airflow é um projeto criado em 2015 e, como diversos outros projetos open source, acabou sendo doado e hoje é mantido pela **Apache Software Foundation**. É desenvolvido em **Python** e uma de suas principais características é a extensibilidade.
 
-[![Orquestrador](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Orquestrador.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Orquestrador.png)
+```mermaid
+flowchart TD
+    A[Airflow<br/>Orquestrador] -->|coordena o processamento em batch| B{Processamento ocorre em}
+    B --> C[Sistema Operacional]
+    B --> D[Banco de Dados]
+    B --> E[Spark]
+    B --> F[Elastic Search]
+    B --> G[Etc.]
+
+    A -.->|não processa dados| A
+```
 
 O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolve-se uma **DAG** (Directed Acyclic Graph) e, dentro dela, as tarefas (*tasks*) — incluindo a definição de qual a precedência entre elas.
 
