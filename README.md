@@ -93,7 +93,7 @@ flowchart LR
 | 08 | Regras de Gatilho (Trigger Rules) | [Ver anotações](https://github.com/JosiTubaroski/Regras_Gatilho/blob/main/README.md) |
 | 09 | Exemplos de Trigger | [Ver anotações](https://github.com/JosiTubaroski/Exemplo_Trigger/blob/main/README.md) |
 | 21 | Branchs: decisões em DAGs | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/5.1.Branchs.pdf) |
-| 22 | Criando uma DAG com Branch | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/branchs.py) |
+| 22 | Criando uma DAG com Branch | [Ver código](https://github.com/joycequoos/DAG_com_Branch/blob/main/README.md) |
 | 23 | Mais sobre o PythonOperator | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/6.1.Mais%20Python%20Operator.pdf) |
 | 24 | Limpeza de dados com PythonOperator | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pythonoperator.py) |
 
