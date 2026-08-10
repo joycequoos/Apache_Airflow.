@@ -9,7 +9,7 @@ Conteúdo relacionado: [Como surge a Engenharia de Dados?](https://github.com/jo
 
 ---
 
-## O que é o Apache Airflow
+## <img src="https://raw.githubusercontent.com/apache/airflow/main/airflow-core/docs/img/logos/airflow_64x64_emoji_transparent.png" width="28" valign="middle"> O que é o Apache Airflow
 
 O Airflow é um projeto criado em 2015 e, como diversos outros projetos open source, acabou sendo doado e hoje é mantido pela **Apache Software Foundation**. É desenvolvido em **Python** e uma de suas principais características é a extensibilidade.
 
