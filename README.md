@@ -27,11 +27,25 @@ flowchart TD
 
 O objetivo do Airflow é **orquestrar pipelines de dados**. Para isso, desenvolve-se uma **DAG** (Directed Acyclic Graph) e, dentro dela, as tarefas (*tasks*) — incluindo a definição de qual a precedência entre elas.
 
-[![Dag](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Dag.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Dag.png)
+```mermaid
+flowchart LR
+    A[Tarefa 1] -->|Precedência| B[Tarefa 2]
+    A -->|Precedência| C[Tarefa 3]
+    B -->|Paralelismo /<br/>Independência| D[Tarefa 4]
+    C -->|Paralelismo /<br/>Independência| D
+```
 
 ### Vantagens de usar uma pipeline de dados com Airflow
 
-[![Vantagens](https://github.com/JosiTubaroski/Data_Enginer/raw/main/imgs/Vantagens.png)](https://github.com/JosiTubaroski/Data_Enginer/blob/main/imgs/Vantagens.png)
+```mermaid
+flowchart LR
+    P((Pipeline)) --> A[Erros]
+    P --> B[Log / Auditoria]
+    P --> C[Monitoramento / Alertas]
+    P --> D[Recuperação a partir<br/>de um Ponto]
+    P --> E[Dados Históricos /<br/>Diferenciação]
+    P --> F[Alta disponibilidade]
+```
 
 ### Como o Airflow funciona
 
