@@ -104,7 +104,7 @@ flowchart LR
 | 15 | Fundamentos de XCom / utilizando XCom | [Ver anotações](https://github.com/JosiTubaroski/Xcom/blob/main/README.md) |
 | 25 | Conhecendo Datasets | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/7.1.Datasets.pdf) |
 | 26 | DAG consumindo Datasets (Produtor) | [Ver código](https://github.com/joycequoos/producer/blob/main/README.md) |
-| 27 | DAG consumindo Datasets (Consumidor) | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/consumer.py) |
+| 27 | DAG consumindo Datasets (Consumidor) | [Ver código](https://github.com/joycequoos/consumer/edit/main/README.md) |
 
 ### 5. Configurações Avançadas, Sensores e Integrações
 
