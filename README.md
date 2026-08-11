@@ -78,42 +78,42 @@ flowchart LR
 | 04 | Criar a primeira DAG na prática | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criar_DAG_Airflow) |
 | 05 | Segunda DAG (paralelismo) / Terceira DAG (precedência) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Segunda_Dag_Paralelismo) |
 | 06 | DAG utilizando `with` e `set_upstream` | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Quarta_Dag/tree/main) |
-| 10 | Estruturando DAGs um pouco mais complexas | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
-| 11 | Agrupamento de tasks (Task Group) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
-| 12 | DAG que executa outra DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
-| 13 | Principais parâmetros de uma DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
-| 14 | Criando DAG com dicionários | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
-| 16 | Criando DAGs com task Dummy | [Ver Conteúdo/Código](https://github.com/joycequoos/Dags_Exercicios/blob/main/README.md) |
+| 07 | Estruturando DAGs um pouco mais complexas | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando_Dags_Complexas/tree/main) |
+| 08 | Agrupamento de tasks (Task Group) | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Agrupando_com_task_group/blob/main/README.md) |
+| 09 | DAG que executa outra DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Dag_Executa_Dag) |
+| 10 | Principais parâmetros de uma DAG | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Parametros_Dag/blob/main/README.md) |
+| 11 | Criando DAG com dicionários | [Ver Conteúdo/Código](https://github.com/JosiTubaroski/Criando-Dag-com-Dicionarios/blob/main/README.md) |
+| 12 | Criando DAGs com task Dummy | [Ver Conteúdo/Código](https://github.com/joycequoos/Dags_Exercicios/blob/main/README.md) |
 
 ### 3. Operadores, Controle de Fluxo e Gatilhos
 
 | # | Tópico | Link |
 |---|--------|------|
-| 07 | Principais Operadores | [Ver anotações](https://github.com/JosiTubaroski/Principais_Operadores/blob/main/README.md) |
-| 08 | Regras de Gatilho (Trigger Rules) | [Ver anotações](https://github.com/JosiTubaroski/Regras_Gatilho/blob/main/README.md) |
-| 09 | Exemplos de Trigger | [Ver anotações](https://github.com/JosiTubaroski/Exemplo_Trigger/blob/main/README.md) |
-| 21 | Branchs: decisões em DAGs | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/5.1.Branchs.pdf) |
-| 22 | Criando uma DAG com Branch | [Ver código](https://github.com/joycequoos/DAG_com_Branch/blob/main/README.md) |
-| 23 | Mais sobre o PythonOperator | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/6.1.Mais%20Python%20Operator.pdf) |
-| 24 | Limpeza de dados com PythonOperator | [Ver código](https://github.com/joycequoos/pythonoperator/blob/main/README.md) |
+| 13 | Principais Operadores | [Ver anotações](https://github.com/JosiTubaroski/Principais_Operadores/blob/main/README.md) |
+| 14 | Regras de Gatilho (Trigger Rules) | [Ver anotações](https://github.com/JosiTubaroski/Regras_Gatilho/blob/main/README.md) |
+| 15 | Exemplos de Trigger | [Ver anotações](https://github.com/JosiTubaroski/Exemplo_Trigger/blob/main/README.md) |
+| 16 | Branchs: decisões em DAGs | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/5.1.Branchs.pdf) |
+| 17 | Criando uma DAG com Branch | [Ver código](https://github.com/joycequoos/DAG_com_Branch/blob/main/README.md) |
+| 18 | Mais sobre o PythonOperator | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/6.1.Mais%20Python%20Operator.pdf) |
+| 19 | Limpeza de dados com PythonOperator | [Ver código](https://github.com/joycequoos/pythonoperator/blob/main/README.md) |
 
 ### 4. Comunicação e Dados entre Tasks
 
 | # | Tópico | Link |
 |---|--------|------|
-| 15 | Fundamentos de XCom / utilizando XCom | [Ver anotações](https://github.com/JosiTubaroski/Xcom/blob/main/README.md) |
-| 25 | Conhecendo Datasets | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/7.1.Datasets.pdf) |
-| 26 | DAG consumindo Datasets (Produtor) | [Ver código](https://github.com/joycequoos/producer/blob/main/README.md) |
-| 27 | DAG consumindo Datasets (Consumidor) | [Ver código](https://github.com/joycequoos/consumer/edit/main/README.md) |
+| 20 | Fundamentos de XCom / utilizando XCom | [Ver anotações](https://github.com/JosiTubaroski/Xcom/blob/main/README.md) |
+| 21 | Conhecendo Datasets | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/7.1.Datasets.pdf) |
+| 22 | DAG consumindo Datasets (Produtor) | [Ver código](https://github.com/joycequoos/producer/blob/main/README.md) |
+| 23 | DAG consumindo Datasets (Consumidor) | [Ver código](https://github.com/joycequoos/consumer/edit/main/README.md) |
 
 ### 5. Configurações Avançadas, Sensores e Integrações
 
 | # | Tópico | Link |
 |---|--------|------|
-| 17 | Entendendo Variáveis | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Variaveis.pdf) |
-| 18 | Utilizando Variáveis em DAGs | [Ver código](https://github.com/joycequoos/Variables/blob/main/README.md) |
-| 19 | Fundamentos de Pools | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/3.1.Pools.pdf) |
-| 20 | Testando Pools em DAGs | [Ver código](https://github.com/joycequoos/pools/blob/main/README.md) |
+| 24 | Entendendo Variáveis | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Variaveis.pdf) |
+| 25 | Utilizando Variáveis em DAGs | [Ver código](https://github.com/joycequoos/Variables/blob/main/README.md) |
+| 26 | Fundamentos de Pools | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/3.1.Pools.pdf) |
+| 27 | Testando Pools em DAGs | [Ver código](https://github.com/joycequoos/pools/blob/main/README.md) |
 | 28 | Fundamentos do Sensor | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/8.1.Sensors.pdf) |
 | 29 | Criando um sensor para uma API | [Ver código](https://github.com/joycequoos/Sensors/blob/main/README.md) |
 | 30 | Operando em banco de dados | [Ver código](https://github.com/joycequoos/PostgresOperator/blob/main/README.md) |
