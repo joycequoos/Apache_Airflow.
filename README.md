@@ -118,7 +118,7 @@ flowchart LR
 | 29 | Criando um sensor para uma API | [Ver código](https://github.com/joycequoos/Sensors/blob/main/README.md) |
 | 30 | Operando em banco de dados | [Ver código](https://github.com/joycequoos/PostgresOperator/blob/main/README.md) |
 | 31 | Hooks | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Hooks.pdf) |
-| 32 | Hooks com banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/hooks.py) |
+| 32 | Hooks com banco de dados | [Ver código](https://github.com/joycequoos/Hooks/blob/main/README.md) |
 
 ### 6. Infraestrutura, Configuração e Extensibilidade
 
