@@ -116,7 +116,7 @@ flowchart LR
 | 20 | Testando Pools em DAGs | [Ver código](https://github.com/joycequoos/pools/blob/main/README.md) |
 | 28 | Fundamentos do Sensor | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/8.1.Sensors.pdf) |
 | 29 | Criando um sensor para uma API | [Ver código](https://github.com/joycequoos/Sensors/blob/main/README.md) |
-| 30 | Operando em banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/bancodedados.py) |
+| 30 | Operando em banco de dados | [Ver código](https://github.com/joycequoos/PostgresOperator/blob/main/README.md) |
 | 31 | Hooks | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Hooks.pdf) |
 | 32 | Hooks com banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/hooks.py) |
 
