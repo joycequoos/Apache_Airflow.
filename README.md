@@ -127,7 +127,7 @@ flowchart LR
 | 33 | Configurações | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Configura%C3%A7%C3%B5es.pdf) |
 | 34 | Executers | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.Executers.pdf) |
 | 35 | Plugins | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/1.Criando%20Plugins.pdf) |
-| 36 | Criando seu próprio Plugin | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/big_data_operator.py) |
+| 36 | Criando seu próprio Plugin | [Ver código](https://github.com/joycequoos/BigDataOperator/blob/main/README.md) |
 | 37 | Conceitos sobre o ecossistema Docker | [Ver anotações](https://github.com/JosiTubaroski/Docker_Compose/edit/main/README.md) |
 
 ---
