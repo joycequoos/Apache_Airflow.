@@ -113,7 +113,7 @@ flowchart LR
 | 17 | Entendendo Variáveis | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/2.1.Variaveis.pdf) |
 | 18 | Utilizando Variáveis em DAGs | [Ver código](https://github.com/joycequoos/Variables/blob/main/README.md) |
 | 19 | Fundamentos de Pools | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/3.1.Pools.pdf) |
-| 20 | Testando Pools em DAGs | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/pools.py) |
+| 20 | Testando Pools em DAGs | [Ver código](https://github.com/joycequoos/pools/blob/main/README.md) |
 | 28 | Fundamentos do Sensor | [PDF](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/8.1.Sensors.pdf) |
 | 29 | Criando um sensor para uma API | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/sensors.py) |
 | 30 | Operando em banco de dados | [Ver código](https://github.com/JosiTubaroski/Apache_Airflow_Princial/blob/main/img/bancodedados.py) |
